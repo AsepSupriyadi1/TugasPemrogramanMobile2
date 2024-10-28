@@ -31,11 +31,11 @@ class Dashboard extends StatelessWidget {
                   text: 'Halo ', // Teks biasa
                   children: [
                     TextSpan(
-                      text: 'Andi Sugara, ', 
+                      text: textParam, 
                       style: TextStyles.body.copyWith(backgroundColor: Colors.white, fontWeight: FontWeight.bold),
                     ),
                     TextSpan(
-                      text:  "Selamat datang di dashboard kami, karena aplikasi ini masih dalah tahap pengembangan silahkan hubungi CS apabila mengalami kendala, terimakasih.", 
+                      text:  " Selamat datang di dashboard kami, karena aplikasi ini masih dalah tahap pengembangan silahkan hubungi CS apabila mengalami kendala, terimakasih.", 
                       style: TextStyles.body.copyWith(backgroundColor: Colors.white),
                     ),
                   ],
